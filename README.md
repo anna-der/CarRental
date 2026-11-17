@@ -1,16 +1,16 @@
-#CarRentalApp
+# CarRentalApp
 
 CarRentalApp is a desktop application for managing a car rental service. The project is developed using C#, Windows Forms and Microsoft SQL Server.
 
 
-#About the Project
+## About the Project
 
 The application is designed to make working with car rental data easier. It allows users to manage database records and work with information through a graphical interface.
 
 The project also includes SQL queries for retrieving and working with data from the database.
 
 
-#Technologies
+## Technologies
 
 - C#
 - Windows Forms
@@ -20,7 +20,7 @@ The project also includes SQL queries for retrieving and working with data from 
 - Visual Studio
 
 
-#Main Features
+## Main Features
 
 - Connecting the application to a SQL Server database.
 - Adding, editing and deleting records.
@@ -31,8 +31,29 @@ The project also includes SQL queries for retrieving and working with data from 
 - Generating PDF reports.
 
 
-#Database
+## Database
 
 The application uses a database called `CarRentalDB`.
 The connection to the database is implemented using `Microsoft.Data.SqlClient`.
+
+
+## Screenshots
+
+### Main Window
+![Main Window](Screenshots/main-window.png)
+
+### Database Management
+![Database Management](Screenshots/client-management-before-add.png)
+
+### Adding a Record
+![Adding a Record](Screenshots/client-management-after-add.png)
+
+### SQL Queries
+![SQL Queries](Screenshots/sql-queries.png)
+
+### PDF Report
+![PDF Report](Screenshots/pdf-report.png)
+
+
+
 
